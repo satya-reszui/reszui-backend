@@ -19,6 +19,6 @@ object Main {
       }
     }
 
-    var binding = Http().newServerAt("localhost", 8089).bind(appRoute)
+    var binding = Http().newServerAt("localhost", 8080).bind(appRoute)
   }
 }
